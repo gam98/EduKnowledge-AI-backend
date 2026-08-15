@@ -1,6 +1,6 @@
 # EduKnowledge AI Backend
 
-A demo-only backend for a source-grounded higher-education knowledge assistant. It is not affiliated with QS or any institution and must only use public-style or explicitly labeled demo data.
+A demo-only backend for a source-grounded higher-education knowledge assistant
 
 ## Foundation scope
 

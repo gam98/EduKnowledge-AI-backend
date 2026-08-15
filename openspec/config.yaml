@@ -1,0 +1,47 @@
+# OpenSpec configuration for EduKnowledge AI backend
+schema: spec-driven
+
+context: |
+  Project: EduKnowledge AI portfolio backend (initial scaffold only).
+  Requested stack: Python 3.12+, FastAPI, Pydantic v2, SQLAlchemy async, Alembic.
+  Data services: PostgreSQL 16 + pgvector and Redis.
+  AI architecture: provider abstractions, RAG, constrained LangGraph workflows.
+  Quality: pytest, pytest-asyncio, httpx, Ruff, mypy, pre-commit, CI.
+  No application code or runnable project configuration exists yet.
+
+testing:
+  strict_tdd: false
+  capabilities:
+    test_runner: null
+    unit: false
+    integration: false
+    e2e: false
+    coverage: false
+    linter: false
+    type_checker: false
+    formatter: false
+
+rules:
+  proposal:
+    - Keep demo/public data only; never imply affiliation with QS or use proprietary data.
+    - Include a rollback plan for risky infrastructure or schema changes.
+  specs:
+    - Use RFC 2119 keywords and Given/When/Then scenarios.
+    - Preserve tenant isolation by organization_id and source-grounded citations.
+  design:
+    - Keep API routes thin and domain logic framework-agnostic and testable.
+    - Put external LLM, embedding, storage, and tracing integrations behind interfaces.
+    - Document security, observability, and migration implications.
+  tasks:
+    - Group work by phase and keep tasks completable in one session.
+  apply:
+    - Follow the prescribed repository layout unless an approved design changes it.
+    - Add and configure a test runner before enabling TDD.
+    tdd: false
+    test_command: ""
+  verify:
+    test_command: ""
+    build_command: ""
+    coverage_threshold: 0
+  archive:
+    - Warn before merging destructive deltas.

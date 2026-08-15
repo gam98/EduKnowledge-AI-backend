@@ -1,0 +1,16 @@
+name,degree_type,faculty,modality,duration_months,language,location,description
+Demo Computer Science,Bachelor,Engineering,On campus,48,English,Demo City,Demo program
+Demo Data Science,Master,Engineering,Hybrid,24,English,Demo City,Demo program
+Demo Business Administration,Bachelor,Business,On campus,48,English,Demo City,Demo program
+Demo Finance,Master,Business,Online,18,English,Remote,Demo program
+Demo Education,Bachelor,Humanities,Hybrid,48,English,Demo City,Demo program
+Demo Psychology,Bachelor,Humanities,On campus,48,English,Demo City,Demo program
+Demo Law,Bachelor,Law,On campus,60,English,Demo City,Demo program
+Demo Nursing,Bachelor,Health,On campus,48,English,Demo City,Demo program
+Demo Public Health,Master,Health,Online,24,English,Remote,Demo program
+Demo Design,Bachelor,Arts,Hybrid,48,English,Demo City,Demo program
+Demo Environmental Science,Bachelor,Science,On campus,48,English,Demo City,Demo program
+Demo Mathematics,Bachelor,Science,On campus,48,English,Demo City,Demo program
+Demo International Relations,Master,Social Sciences,Hybrid,24,English,Demo City,Demo program
+Demo Linguistics,Bachelor,Humanities,Online,48,English,Remote,Demo program
+Demo Cybersecurity,Master,Engineering,Online,18,English,Remote,Demo program

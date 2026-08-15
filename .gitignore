@@ -1,0 +1,4 @@
+# Generated agent skill registry
+.atl/
+.venv/
+.env
